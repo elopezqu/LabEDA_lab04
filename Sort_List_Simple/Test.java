@@ -10,23 +10,32 @@ import com.panayotis.gnuplot.JavaPlot;
 public class Main {
 
 	public static void main(String[] args) throws FileNotFoundException {
-		int tamano;        
+        int tamano;        
 		Scanner teclado = new Scanner( System.in );
 	    System.out.print( "Introduzca el tamaño máximo del último arreglo: " );
-	    tamano = teclado.nextInt();        
+	    tamano = teclado.nextInt();  
 	    
-	    ArrayList<int[]> casos = new ArrayList<int[]>();        
+	    ArrayList<Lista<Integer>> casos = new ArrayList<Lista<Integer>>();        
 	    String archivoInsercion = "insercion.txt";
 	    PrintWriter oS = new PrintWriter(archivoInsercion);        
 	    
 	    for(int n=1; n<=tamano; n++) {
 	    	casos.add(generarPeorCaso(n));
-	    }        
-	    Iterator<int[]> puntero = casos.iterator();
+	    }
+	    System.out.println("CASO1: ");
+	    for(int n=0; n<casos.get(10).size(); n++) {
+	    	System.out.println("n: "+casos.get(10).get(n));
+	    }
+	    Iterator<Lista<Integer>> puntero = casos.iterator();
 	    while(puntero.hasNext()){        	
-	    	oS.println( String.valueOf( insertionSort(puntero.next()) ) );        	
-	    }        
-	    oS.close();        
+	    	oS.println( String.valueOf(insertionSort(puntero.next())));        	
+	    }
+	    System.out.println("CASO2: ");
+	    for(int n=0; n<casos.get(10).size(); n++) {
+	    	System.out.println("n: "+casos.get(10).get(n));
+	    }
+	    oS.close();   
+	    
 	    // plot "/Users/richarteq/eclipse-workspace/Algoritmica/insercion.txt" with lines        
 	    JavaPlot p = new JavaPlot();
 		p.addPlot("\"insercion.txt\" with lines " );
