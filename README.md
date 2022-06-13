@@ -42,16 +42,16 @@
   <ul>
     <ol>
         <li>Ordenar Lista Simple</li>
-	    <em>-> Antes de probar las clases se debe intalar la libreria externa "JavaPlot"</em><br>
-	    <em>-> La ruta de creacion del archivo insercion.txt varía de acuerdo al sistema operativo</em>
-	    <p>La clase <em>"Lista"</em> presenta los metodos:<br> insert(inserta un nodo al final)<br> isEmpy(verifica si la lista esta vacía)<br> size(retorna el tamaño)<br> get(retorna el nodo segun un indice)<br> remove(elimina un nodo segun un indice)</p>
+	    <em>-> Antes de probar las clases se debe intalar la libreria externa "JavaPlot".</em><br>
+	    <em>-> La ruta de creacion del archivo insercion.txt varía de acuerdo al sistema operativo.</em>
+	    <p>La clase <em>"Lista"</em> presenta los métodos:<br> insert(inserta un nodo al final)<br> isEmpy(verifica si la lista esta vacía)<br> size(retorna el tamaño)<br> get(retorna el nodo según un indice)<br> remove(elimina un nodo según un indice)</p>
 	    <p>La clase <em>"Test"</em>(que tiene el main), tiene los siguiente métodos: </p>
-	    <p>"generarPeorCaso()": retorna una lista enlazada con el peor caso de ordenamido, con "t"elementos</p>
-            <p>"InsertionSort()": retorna el tiempo de ejecución para el ordenamiento una lista enlazada</p>
+	    <p>"generarPeorCaso()": retorna una lista enlazada con el peor caso de ordenamido, con "t"elementos.</p>
+            <p>"InsertionSort()": retorna el tiempo de ejecución para el ordenamiento una lista enlazada.</p>
 	    <em>Al ejecutar</em><br>
 	    <img src="Imagenes/500.jpeg"><br>
 	    <img src="Imagenes/1000.jpeg"><br>
-	    <em>En la consola</em><br>
+	    <em>En la consola: </em><br>
 	    <img src="Imagenes/consola.jpeg"><br>
         <li>Ordenar Lista Doble</li>
             <p>...</p>
