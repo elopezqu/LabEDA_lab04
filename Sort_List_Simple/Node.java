@@ -1,4 +1,4 @@
-
+package LabEDA_lab04.Sort_List_Simple;
 public class Node<E> {
 	private E data;
 	private Node<E> next;
