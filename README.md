@@ -42,7 +42,7 @@
   <ul>
     <ol>
         <li>Ordenar Lista Simple</li>
-<em>-> Antes de probar las clases se debe intalar la libreria externa "JavaPlot".</em><br>
+	    <em>-> Antes de probar las clases se debe intalar la libreria externa "JavaPlot".</em><br>
 	    <em>-> La ruta de creacion del archivo insercion.txt varía de acuerdo al sistema operativo.</em>
 	    <p>La clase <em>"Lista"</em> presenta los métodos:<br> insert(inserta un nodo al final)<br> isEmpy(verifica si la lista esta vacía)<br> size(retorna el tamaño)<br> get(retorna el nodo según un indice)<br> remove(elimina un nodo según un indice)</p>
 	    <p>La clase <em>"Test"</em>(que tiene el main), tiene los siguiente métodos: </p>
