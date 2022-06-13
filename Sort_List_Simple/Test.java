@@ -12,7 +12,7 @@ public class Test {
 	public static void main(String[] args) throws FileNotFoundException {
         int tamano;        
 		Scanner teclado = new Scanner( System.in );
-	    System.out.print( "Introduzca el tamaño máximo del último arreglo: " );
+	    System.out.print( "Introduzca el tamaño máximo de la lista enlazada: " );
 	    tamano = teclado.nextInt();  
 	    
 	    ArrayList<Lista<Integer>> casos = new ArrayList<Lista<Integer>>();        
@@ -26,8 +26,7 @@ public class Test {
 	    while(puntero.hasNext()){        	
 	    	oS.println( String.valueOf(insertionSort(puntero.next())));        	
 	    }
-	    oS.close();   
-	    // plot "/Users/richarteq/eclipse-workspace/Algoritmica/insercion.txt" with lines        
+	    oS.close();         
 	    JavaPlot p = new JavaPlot();
 		p.addPlot("\"insercion.txt\" with lines " );
 		p.plot();
