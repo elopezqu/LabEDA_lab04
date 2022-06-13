@@ -74,7 +74,8 @@
   </td><tr>
  </theader>
  <tbody>
-  <tr><td>...</td></tr>
+  <tr><td>El algoritmo de ordenamiento por inserción es fácil de aplicar y permite como su mismo nombre lo dice ordenar una lista,<br>asigna un valor como clave y lo compara con el resto insertándolo en el lugar adecuado esto en cada iteración.<br>Se hicieron uso de listas simples y dobles enlazadas con datos genéricos<br>y se utilizaron los peores casos para tener una visión más amplia de la eficiencia de nuestro algoritmo.<br>Además de hacer uso de la libreria Plot para hacer una gráfica de los tiempos de ejecución.
+  </td></tr>
  </tbody>
 </table>
 
@@ -84,10 +85,9 @@
   <tr><td>REFERENCIAS Y BIBLIOGRAFÍA</td><tr>
  </theader>
  <tbody>
-  <tr><td>-...</td></tr>
-  <tr><td>-...</td></tr>
-  <tr><td>-...</td></tr>
-  <tr><td>-...</td></tr>
-  <tr><td>-...</td></tr>
+  <tr><td>-https://www.w3schools.com/java/</td></tr>
+  <tr><td>-https://javaplot.panayotis.com/</td></tr>
+  <tr><td>-https://www.fceia.unr.edu.ar/estruc/2005/listendo.htm</td></tr>
+  <tr><td>-https://ccia.ugr.es/~jfv/ed1/tedi/cdrom/docs/ldoble.html</td></tr>
  </tbody>
 </table>
