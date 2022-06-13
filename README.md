@@ -45,9 +45,11 @@
             <p>dsfaasd</p>
             <p>...</p>
         <li>Ordenar Lista Doble</li>
-            <p>...</p>
-            <p>...</p>
-            <p>...</p>
+            <p>Se crea la clase Node, añadiendo lo explicado en clase(los contructores) y se completa con los seters y geters, respectivamente</p>
+            <p>Para la clase <em>Lista</em> se consideron los metodos, isEmty, getTamaño, agregarAdelante y Atras, getIncio y Atras, y por último un toString</p>
+            <p>La clase Test está basada en lo implementado en clase, el algoritmo de  inserción con el métodos de peor caso</p>
+            <p>Ejemplo de Ejecución:</p>
+            <img src="Imagenes/ejemplo.jpg">
     </ol>
   </ul>
 
