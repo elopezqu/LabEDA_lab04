@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 import com.panayotis.gnuplot.JavaPlot;
 
-public class Main {
+public class Test {
 
 	public static void main(String[] args) throws FileNotFoundException {
         int tamano;        
@@ -22,20 +22,11 @@ public class Main {
 	    for(int n=1; n<=tamano; n++) {
 	    	casos.add(generarPeorCaso(n));
 	    }
-	    System.out.println("CASO1: ");
-	    for(int n=0; n<casos.get(10).size(); n++) {
-	    	System.out.println("n: "+casos.get(10).get(n));
-	    }
 	    Iterator<Lista<Integer>> puntero = casos.iterator();
 	    while(puntero.hasNext()){        	
 	    	oS.println( String.valueOf(insertionSort(puntero.next())));        	
 	    }
-	    System.out.println("CASO2: ");
-	    for(int n=0; n<casos.get(10).size(); n++) {
-	    	System.out.println("n: "+casos.get(10).get(n));
-	    }
 	    oS.close();   
-	    
 	    // plot "/Users/richarteq/eclipse-workspace/Algoritmica/insercion.txt" with lines        
 	    JavaPlot p = new JavaPlot();
 		p.addPlot("\"insercion.txt\" with lines " );
