@@ -47,9 +47,11 @@
             <p>"generarPeorCaso" retorna una lista enlazada con el peor caso de ordenamido, con "t elementos"...</p>
             <p>"InsertionSort" retorna el tiempo de ejecución para el ordenamiento una lista enlazada</p>
 	    <p>La clase Lista presenta los metodos: insert(inserta un nodo al final), isEmpy(verifica si la lista esta vacía), size(retorna el tamaño), get(retorna el nodo segun un indice), remove(elimina un nodo segun un indice)</p>
-	    <em>Al ejecutar</em>
-	    <img src="Imagenes/500.jpeg">
-	    <img src="Imagenes/1000.jpeg">
+	    <em>Al ejecutar</em><br>
+	    <img src="Imagenes/500.jpeg"><br>
+	    <img src="Imagenes/1000.jpeg"><br>
+	    <em>En la consola</em><br>
+	    <img src="Imagenes/consola.jpeg"><br>
         <li>Ordenar Lista Doble</li>
             <p>...</p>
             <p>...</p>
