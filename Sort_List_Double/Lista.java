@@ -12,10 +12,22 @@ public class Lista<E>{
         return tamaño;
     }
     public void agregarAlFinal(E dato){
-        
+        if(!isEmty()){
+            this.fin = new NodeD<E>(dato,null,this.fin);
+            this.fin.getPrevious().setNext(this.fin);
+        } else {
+            this.inicio = this.fin = new NodeD<E>(dato);
+        }
+        tamaño++;
     }
     public void agregarAlInicio(E dato) {
-
+        if (!isEmty()) {
+            this.inicio = new NodeD<E>(dato, this.inicio, null);
+            this.inicio.getNext().setPrevious(this.inicio);
+        } else {
+            this.inicio = this.fin = new NodeD<E>(dato);
+        }
+        tamaño++;
     }
 
     public Node<E> getInicio(int p) {
