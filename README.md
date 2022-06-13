@@ -52,12 +52,17 @@
   </ul>
 
   </td></tr>
-  <tr><td><strong>II. CUESTIONARIO:</strong><br>¿Cómo se ejecutaría sus implementaciones desde terminal(consola)?<br>...  
+  <tr><td><strong>II. CUESTIONARIO:</strong><br>¿Cómo se ejecutaría sus implementaciones desde terminal(consola)?
+   <br>Se agrega desde la terminal con el siguiente comando: <em>java -classpath nombreLibreria</em><br>...  
   </td></tr>
 
 
-  <tr><td><strong>III. CONCLUSIONES:</strong><br>- ...
-  </td></tr>
+  <tr><td><strong>III. CONCLUSIONES:</strong><br>- Podemos concluir que  existen muchas formas de guardar datos, variando simplemente la forma de hacerlo, por ejemplo: Array y Listas Enlazadas.<br>
+  - Se puede realizar ordenamientos con datos gereticos(TDA), favoreciendo así, la genericidad.<br>
+  - Es beneficioso encontrar el peor caso de cualquier algoritmo, ya que nos proporciona una perspectiva clara, acerca de que tan eficiente es el mismo.
+  <br>- Java Plot nos ayuda, a ver ,graficamente ,como se va variando el tiempo de ejecución de cierto algoritmo, lo cual nos proporciona grandes facilidades y por otro lado nos muestra la tendencia de crecimiento.
+  </td>
+  </tr>
  </tbody>
 </table>
 
