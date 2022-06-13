@@ -53,7 +53,7 @@
 
   </td></tr>
   <tr><td><strong>II. CUESTIONARIO:</strong><br>¿Cómo se ejecutaría sus implementaciones desde terminal(consola)?
-   <br>Se agrega desde la terminal con el siguiente comando: <em>java -classpath nombreLibreria</em><br>...  
+   <br>Se agrega desde la terminal con el siguiente comando: <em>java -classpath nombreLibreria</em>.<br>
   </td></tr>
 
 
