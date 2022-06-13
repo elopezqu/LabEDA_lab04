@@ -5,7 +5,11 @@ public class Test {
     }
 
     public static Lista<Integer> generarPeorCaso(int t) {
-        return 
+        ListDouble<Integer> misLista = new ListDouble<Integer>();
+		for (int i=0; i<t; i++) {
+			misLista.agregarAlInicio(i);	
+		}
+		return misLista;
     }
 
     public static long insertionSort(Lista<Integer> A) {
