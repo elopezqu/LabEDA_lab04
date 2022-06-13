@@ -42,8 +42,8 @@
   <ul>
     <ol>
         <li>Ordenar Lista Simple</li>
-	    <p>Antes de probar las clases se debe intalar la libreria externa "JavaPlot"</p>
-	    <p>La ruta de creacion del archivo insercion.txt varía de acuerdo al sistema operativo</p>
+	    <em>Antes de probar las clases se debe intalar la libreria externa "JavaPlot"</em>
+	    <em>La ruta de creacion del archivo insercion.txt varía de acuerdo al sistema operativo</em>
             <p>"generarPeorCaso" retorna una lista enlazada con el peor caso de ordenamido, con "t elementos"...</p>
             <p>"InsertionSort" retorna el tiempo de ejecución para el ordenamiento una lista enlazada</p>
         <li>Ordenar Lista Doble</li>
