@@ -6,7 +6,7 @@ public class Lista<E>{
         this.tamaño = 0;
     }
     public boolean isEmty(){
-        return ;
+        return (this.inicio==null && this.fin==null);
     }
     public int getTamaño(){
         return tamaño;
