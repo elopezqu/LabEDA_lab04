@@ -22,11 +22,24 @@ public class Test {
 	    for(int n=1; n<=tamano; n++) {
 	    	casos.add(generarPeorCaso(n));
 	    }
+
+	    System.out.println("* CASO DE PRUEBA CON UNA LISTA DE 10 ELEMENTOS *");
+	    System.out.println("-> Antes del ordenamiento: ");
+	    for(int n=0; n<casos.get(10).size(); n++) {
+	    	System.out.println("n: "+casos.get(10).get(n));
+	    }
+
 	    Iterator<Lista<Integer>> puntero = casos.iterator();
 	    while(puntero.hasNext()){        	
 	    	oS.println( String.valueOf(insertionSort(puntero.next())));        	
 	    }
 	    oS.close();         
+
+	    System.out.println("-> después del ordenamiento: ");
+	    for(int n=0; n<casos.get(10).size(); n++) {
+	    	System.out.println("n: "+casos.get(10).get(n));
+	    }
+
 	    JavaPlot p = new JavaPlot();
 		p.addPlot("\"insercion.txt\" with lines " );
 		p.plot();
